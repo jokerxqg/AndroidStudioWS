@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="270dp"
+    android:layout_height="150dp"
+    tools:context=".fragment.NetworkFragmentDialog"
+    android:background="@color/white">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="温馨提示"
+        android:drawableLeft="@mipmap/icon_large"
+        android:textSize="19sp"/>
+    <View
+        android:id="@+id/v_line"
+        android:layout_below="@id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/userRoomBackground"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_below="@id/v_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请检查你的网络连接"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/tv_info"
+        android:layout_margin="20dp"
+        android:text="确定"
+        android:background="@color/splash_background"/>
+
+</RelativeLayout>

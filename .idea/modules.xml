@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidStudioWS.iml" filepath="$PROJECT_DIR$/AndroidStudioWS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baiduguard/baiduguard.iml" filepath="$PROJECT_DIR$/baiduguard/baiduguard.iml" />
+    </modules>
+  </component>
+</project>

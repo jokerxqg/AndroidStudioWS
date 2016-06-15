@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBG"
+    tools:context="com.zzptc.joker.baiduguard.fragment.UrgentContactFragment">
+
+    <ImageView
+        android:id="@+id/iv_shake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:src="@mipmap/open_first" />
+
+    <TextView
+        android:id="@+id/tv_urgent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_shake"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/urgent_text"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_urgent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="紧急联系人"
+                android:layout_margin="10dp"
+                android:textColor="@color/gridLayoutBackground"
+                android:textSize="18sp"/>
+
+            <View
+                android:id="@+id/v_line"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gridLayoutBackground"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"></View>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@id/listView"
+                android:scrollbars="none"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:divider="@null"/>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/warte_mark_light"
+           android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="20dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

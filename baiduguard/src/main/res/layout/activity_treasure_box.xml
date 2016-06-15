@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zzptc.joker.baiduguard.activity.TreasureBoxActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.GridLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gridLayoutBackground"
+        app:columnCount="3"
+        app:rowCount="6">
+
+        <TextView
+            style="@style/BoxFunctionMoudle"
+            android:layout_marginRight="1px"
+            android:layout_marginTop="1px"
+            android:drawableTop="@mipmap/parent_protect"
+            android:text="家人防护"
+            android:background="@color/white"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/box_down"
+            style="@style/BoxFunctionMoudle"
+            android:layout_marginRight="1px"
+            android:layout_marginTop="1px"
+            android:drawableTop="@mipmap/treasure_box_down"
+            android:text="回首页"
+            android:background="@color/white"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            style="@style/FunctionMoudle"
+            android:layout_marginRight="1px"
+            android:layout_marginTop="1px"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            style="@style/BoxFunctionMoudle"
+            android:layout_marginRight="1px"
+            android:layout_marginTop="1px"
+            android:drawableTop="@mipmap/kill_virus"
+            android:text="病毒查杀"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            style="@style/BoxFunctionMoudle"
+            android:layout_marginRight="1px"
+            android:layout_marginTop="1px"
+            android:drawableTop="@mipmap/harass_intercept"
+            android:text="骚扰拦截"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            style="@style/BoxFunctionMoudle"
+            android:layout_marginRight="1px"
+            android:layout_marginTop="1px"
+            android:drawableTop="@mipmap/software_lock"
+            android:text="软件锁"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            style="@style/BoxFunctionMoudle"
+            android:layout_marginRight="1px"
+            android:layout_marginTop="1px"
+            android:drawableTop="@mipmap/safe_toolkit"
+            android:text="安全工具"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            style="@style/BoxFunctionMoudle"
+            android:layout_marginRight="1px"
+            android:layout_marginTop="1px"
+            android:drawableTop="@mipmap/wifi_raid"
+            android:text="Wi-Fi雷达"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            style="@style/BoxFunctionMoudle"
+            android:layout_marginRight="1px"
+            android:layout_marginTop="1px"
+            android:drawableTop="@mipmap/root_mode"
+            android:text="超强模式"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            style="@style/BoxFunctionMoudle"
+            android:layout_marginRight="1px"
+            android:layout_marginTop="1px"
+            android:drawableTop="@mipmap/nofi_quiet"
+            android:text="防通知打扰"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            style="@style/BoxFunctionMoudle"
+            android:layout_marginRight="1px"
+            android:layout_marginTop="1px"
+            android:drawableTop="@mipmap/security_search"
+            android:text="安全搜素"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            style="@style/BoxFunctionMoudle"
+            android:layout_marginRight="1px"
+            android:layout_marginTop="1px"
+            android:drawableTop="@mipmap/permission_manager"
+            android:text="权限管理"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            style="@style/BoxFunctionMoudle"
+            android:layout_marginRight="1px"
+            android:layout_marginTop="1px"
+            android:drawableTop="@mipmap/grab_tickets"
+            android:text="急速抢票"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            style="@style/BoxFunctionMoudle"
+            android:layout_marginTop="1px"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            style="@style/BoxFunctionMoudle"
+            android:layout_marginTop="1px"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+
+    </android.support.v7.widget.GridLayout>
+    </ScrollView>
+</RelativeLayout>

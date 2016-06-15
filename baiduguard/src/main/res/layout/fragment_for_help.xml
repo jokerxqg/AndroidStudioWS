@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zzptc.joker.baiduguard.fragment.ForHelpFragment"
+    android:background="@color/mainBG">
+
+    <ImageView
+        android:id="@+id/iv_bear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/one_key_help_bear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:id="@+id/tv_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="危急时刻，瞬间求救"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:layout_below="@id/iv_bear"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_below="@id/tv_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="绑定紧急联系人快速求救"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/button_open_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:background="@color/okGreen"
+        android:text="开启一键求救"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+
+</RelativeLayout>

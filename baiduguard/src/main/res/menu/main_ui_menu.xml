@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/user_center"
+        android:icon="@mipmap/personal_center"
+        android:title="用户中心"
+        app:showAsAction="always"></item>
+</menu>

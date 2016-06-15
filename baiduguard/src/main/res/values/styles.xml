@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="addContactActStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/addContactsToolbarbg</item>
+    </style>
+
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/mainBG</item>
+        <item name="colorPrimaryDark">@color/mainBG</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:menuCategory">container</item>
+        <item name="android:popupMenuStyle">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="UpdateDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="SplashTop">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="SplashCenterBg">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">99dp</item>
+    </style>
+
+    <style name="SplashCenter">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_below">@id/iv_top</item>
+    </style>
+
+    <style name="FunctionMoudle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/white</item>
+
+    </style>
+
+    <style name="BoxFunctionMoudle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">110dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#fffff8</item>
+    </style>
+
+    <style name="UserSettingStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <!--<style name="MyToolBarStyle">-->
+        <!--<item name="android:layout_width">match_parent</item>-->
+        <!--<item name="android:layout_weight">55dp</item>-->
+        <!--<item name="android:background">@color/colorPrimary</item>-->
+    <!--</style>-->
+
+
+</resources>

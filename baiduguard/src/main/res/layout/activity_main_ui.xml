@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBG"
+    tools:context="com.zzptc.joker.baiduguard.activity.MainUIActivity">
+
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/mainBG"
+        app:titleTextColor="@color/white"
+        app:title="百度手机卫士">
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/centerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_below="@id/toolbar">
+
+
+
+        <com.zzptc.joker.baiduguard.baseviews.RatingView
+            android:id="@+id/rating_view"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true">
+            <TextView
+                android:id="@+id/tv_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_gravity="center"
+                android:text="11"
+                android:textColor="@color/white"
+                android:textSize="90sp"/>
+        </com.zzptc.joker.baiduguard.baseviews.RatingView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottomlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/centerlayout"
+        android:background="@color/white">
+
+        <android.support.v7.widget.GridLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_centerVertical="true"
+            android:background="@color/gridLayoutBackground"
+            app:columnCount="3"
+            app:rowCount="2">
+
+            <TextView
+                android:id="@+id/tv_speedup"
+                style="@style/FunctionMoudle"
+                android:layout_marginRight="1px"
+                android:drawableTop="@mipmap/mobile_speedup"
+                android:text="手机加速"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <TextView
+                android:id="@+id/garbageClean"
+                style="@style/FunctionMoudle"
+                android:drawableTop="@mipmap/garbage_clean"
+                android:layout_marginRight="1px"
+                android:text="垃圾清理"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <TextView
+                style="@style/FunctionMoudle"
+                android:drawableTop="@mipmap/security_guard"
+                android:text="安全防护"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <TextView
+                android:id="@+id/parentProtect"
+                style="@style/FunctionMoudle"
+                android:layout_marginRight="1px"
+                android:layout_marginTop="1px"
+                android:drawableTop="@mipmap/parent_protect"
+                android:text="家人防护"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <TextView
+                android:id="@+id/box_up"
+                style="@style/FunctionMoudle"
+                android:layout_marginRight="1px"
+                android:layout_marginTop="1px"
+                android:drawableTop="@mipmap/treasure_box_up"
+                android:text="百宝箱"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <TextView
+                style="@style/FunctionMoudle"
+                android:layout_marginTop="1px"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+
+        </android.support.v7.widget.GridLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

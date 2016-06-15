@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zzptc.joker.baiduguard.activity.AboutGuardActivity">
+
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/mainBG"
+        app:navigationIcon="@mipmap/back"
+        app:title="关于"
+        app:titleTextColor="@color/white" />
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/toolbar">
+
+        <ImageView
+            android:id="@+id/iv_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:src="@mipmap/logo_large" />
+
+        <TextView
+            android:id="@+id/tv_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_top"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:text="百度手机卫士"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_center"
+            android:text="更快，更安全"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_below="@id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/userRoomBackground"/>
+
+    <RelativeLayout
+        android:layout_below="@id/top_layout"
+        android:id="@+id/center_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/tv_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Power By "
+            android:textSize="20sp"
+            android:padding="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:textColor="@android:color/secondary_text_light"/>
+        <ImageView
+            android:layout_toRightOf="@id/tv_left"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/myhead"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_below="@id/center_layout"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/userRoomBackground"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="版权所有，违版必究"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/gridLayoutBackground"/>
+</RelativeLayout>

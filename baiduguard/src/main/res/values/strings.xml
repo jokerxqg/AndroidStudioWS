@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">百度卫士</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="splash_button_text">立即体验</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="urgent_text">注意：请确保手机畅通，并授权百度手机卫士发送短信，读取位置信息的权限</string>
+</resources>

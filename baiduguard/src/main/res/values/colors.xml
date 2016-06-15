@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="splash_background">#1E62D7</color>
+    <color name="white">#ffffff</color>
+    <color name="gridLayoutBackground">#bbb4b4</color>
+    <color name="userRoomBackground">#e6e6de</color>
+    <color name="black">#000000</color>
+    <color name="mainBG">#1545A4</color>
+    <color name="addContactsToolbarbg">#2A3034</color>
+    <color name="okGreen">#72B872</color>
+</resources>
