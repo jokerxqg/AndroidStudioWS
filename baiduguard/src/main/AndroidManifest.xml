@@ -89,6 +89,8 @@
             android:process=":remote" />
 
         <receiver
+
+
             android:name=".receiver.ScreenReceiver"
             android:enabled="true"
             android:exported="true" />
